@@ -1,14 +1,12 @@
 # On The Performance Of Lua
 
-**Authors:** André Brandão [(Github)](https://github.com/brandao07), Diogo Matos [(Github)](https://github.com/brandao07), Miguel Guimarães [(Github)](https://github.com/miguel-amg).
+**Authors:** André Brandão [(Github)](https://github.com/brandao07), Diogo Matos [(Github)](https://github.com/diogogmatos), Miguel Guimarães [(Github)](https://github.com/miguel-amg).
 
 **University of Minho** - Masters Degree in Software Engineering
 
 **Description:** This repository contains the data and scripts used to evaluate Lua’s performance, specifically its energy consumption and execution time.
 
 ![Logo](assets/uminho.jpg)
-
-**June 2025**
 
 # Compilers and versions
 The compilers selected for this study were:
@@ -29,7 +27,7 @@ These were the selected benchmarks:
 - Nbody
 - Spectralnorm
 
-# Research details:
+# Research details
 The machine used to perform this study had the following specifications:
 - **Operating System:** macOS 15.3.2 (24D81) arm64
 - **Kernel:** 24.3.0
@@ -38,14 +36,28 @@ The machine used to perform this study had the following specifications:
 - **RAM:** 16 GB
 - **Host:** MacBookPro17,1
 
+Due to incompatibilities with macOS, this research only used only two of the proposed compilers.
+
+The Luau, LuaAOT and luaJIT-remake were scraped as a result of this incompatibility.
+
 ***
 
-# Src:
-In the *src* folder 
+# Src folder
+The src folder contains a makefile that is responsible for executing the following steps:
+- ```make install``` - Install all lua compilers and versions.
+- ```make download``` - Cleans up previous files, downloads new ones, and performs a light cleanup.
+- ```make full-cleanup``` - Removes all generated or temporary files for a fresh start.
+- ```make measure``` - Runs the measurement script.
+- ```make help``` - Shows a help message.
 
-# Analysis:
-Inside the analysis folder 
+**Requirements:** Codecarbon.
 
+# Analysis folder
+The analysis folder contains:
+- The raw data measured from our research using the scripts in the Src folder.
+- The python file ```data_analysis.ipynb``` used in the creation of the graphs.
+
+**Requirements:** matplotlib, pandas, seaborn, ipykernel.
 
 ## References
  - [The Lua Programming Language](https://www.lua.org/)
