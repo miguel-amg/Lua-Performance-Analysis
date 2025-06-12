@@ -1,6 +1,6 @@
 # On The Performance Of Lua
 
-**Authors:** André Brandão [(Github)](https://github.com/brandao07), Diogo Matos [(Github)](https://github.com/diogogmatos), Miguel Guimarães [(Github)](https://github.com/miguel-amg).
+**Authors:** [André Brandão](https://github.com/brandao07), [Diogo Matos](https://github.com/diogogmatos), [Miguel Guimarães](https://github.com/miguel-amg).
 
 **University of Minho** - Masters Degree in Software Engineering.
 
