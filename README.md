@@ -8,6 +8,8 @@
 
 ![Logo](assets/uminho.jpg)
 
+***
+
 # Compilers and versions
 The compilers selected for this study were:
 
@@ -58,6 +60,8 @@ The analysis folder contains:
 - The python file ```data_analysis.ipynb``` used in the creation of the graphs.
 
 **Requirements:** matplotlib, pandas, seaborn, ipykernel.
+
+***
 
 ## References
  - [The Lua Programming Language](https://www.lua.org/)
