@@ -2,7 +2,7 @@
 
 **Authors:** André Brandão [(Github)](https://github.com/brandao07), Diogo Matos [(Github)](https://github.com/diogogmatos), Miguel Guimarães [(Github)](https://github.com/miguel-amg).
 
-**University of Minho** - Masters Degree in Software Engineering
+**University of Minho** - Masters Degree in Software Engineering.
 
 **Description:** This repository contains the data and scripts used to evaluate Lua’s performance, specifically its energy consumption and execution time.
 
