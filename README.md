@@ -42,8 +42,6 @@ Due to incompatibilities with macOS, this research only used only two of the pro
 
 The Luau, LuaAOT and luaJIT-remake were scraped as a result of this incompatibility.
 
-***
-
 # Src folder
 The src folder contains a makefile that is responsible for executing the following steps:
 - ```make install``` - Install all lua compilers and versions.
